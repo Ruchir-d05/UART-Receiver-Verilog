@@ -84,7 +84,7 @@ The UART Receiver is implemented using a Finite State Machine (FSM) consisting o
                 STATE_IDLE
  ```
 
-## FSM States
+## FSM States 
 
 | State           | Description                                                                    |
 | --------------- | ------------------------------------------------------------------------------ |
