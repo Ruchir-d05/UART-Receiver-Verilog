@@ -94,3 +94,34 @@ The UART Receiver is implemented using a Finite State Machine (FSM) consisting o
 | `STATE_STOP`    | Waits for the stop-bit period before declaring the byte successfully received. |
 | `STATE_CLEANUP` | Clears the `rx_valid` signal and returns the receiver to the idle state.       |
 
+## UART Recevier Interface
+| Signal         | Direction | Description                                      |
+| -------------- | --------- | ------------------------------------------------ |
+| `clk`          | Input     | System clock                                     |
+| `rx`           | Input     | UART serial data input                           |
+| `rx_valid`     | Output    | Indicates that a complete byte has been received |
+| `rx_data[7:0]` | Output    | Received 8-bit parallel data                     |
+
+## Parameter
+| Parameter      | Default Value | Description                                                 |
+| -------------- | ------------: | ----------------------------------------------------------- |
+| `CLKS_PER_BIT` |         `217` | Number of clock cycles corresponding to one UART bit period |
+## Tools & Technologies
+Verilog HDL
+RTL Design
+Finite State Machine (FSM)
+UART Protocol
+RTL Simulation
+Functional Verification
+Testbench Development
+VCD Waveform Analysis
+GTKWave
+Ubuntu/Linux
+Open-Source EDA Tools
+
+## Author
+Ruchir Dambhare
+
+Electronics & Telecommunication Engineering
+Interested in VLSI, RTL Design and Digital IC Design
+
