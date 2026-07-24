@@ -107,23 +107,12 @@ The UART Receiver is implemented using a Finite State Machine (FSM) consisting o
 | -------------- | ------------: | ----------------------------------------------------------- |
 | `CLKS_PER_BIT` |         `217` | Number of clock cycles corresponding to one UART bit period |
 
-## Tools & Technologies
--Verilog HDL
--RTL Design
--Finite State Machine (FSM)
--UART Protocol
--RTL Simulation
--Functional Verification
--Testbench Development
--VCD Waveform Analysis
--GTKWave
--Ubuntu/Linux
--Open-Source EDA Tools
+- **Tools & Technologies:** Verilog HDL · RTL Design · FSM Design · UART Protocol · RTL Simulation · Functional Verification · Testbench Development · VCD Waveform Analysis · GTKWave · Ubuntu/Linux · Open-Source EDA Tools
 
 ## Author
 Ruchir Dambhare
 
 Electronics & Telecommunication Engineering
 Interested in VLSI, RTL Design and Digital IC Design
----
+
 
